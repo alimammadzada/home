@@ -1,37 +1,185 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-You can use the [editor on GitHub](https://github.com/alimammadzada/home/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ali Mammadzada CV</title>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    tr,
+    td,
+    th {
+      border: 3px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
 
-### Markdown
+    tr:nth-child(even) {
+      background-color: #f0ffff;
+    }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    thead {
+      background-color: #dddddd;
+      font-family: arial, sans-serif;
+      font-size: 30px;
+    }
 
-```markdown
-Syntax highlighted code block
+    h1 {
+      font-family: times;
+      color: AliceBlue;
+      font-size: 50px;
+      background-color: cadetblue;
+    }
 
-# Header 1
-## Header 2
-### Header 3
+    h2 {
+      font-family: times;
+      color: AliceBlue;
+      font-size: 30px;
+    }
 
-- Bulleted
-- List
+    h3 {
+      font-family: times;
+      color: black;
+      font-size: 25px
+    }
 
-1. Numbered
-2. List
+    h4 {
+      font-family: times;
+      color: black;
+      font-size: 20px
+    }
+    h5 {
+      font-family: times;
+      color: black;
+      font-size: 15px
+    }
 
-**Bold** and _Italic_ and `Code` text
+    hr {
+      color: black;
+      height: 2px;
+      background-color: black;
+    }
 
-[Link](url) and ![Image](src)
-```
+    * {
+      box-sizing: border-box;
+    }
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 1000px;
+      /* Should be removed. Only for demonstration */
+    }
 
-### Jekyll Themes
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alimammadzada/home/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<body style=" background: linear-gradient(Teal, AliceBlue);">
+  <img title="Ali" src="img\ali.jpg" alt="ali" style=" width:235px; height:222px; float:left;">
+  <h2 style="text-align:left;"><br>CHEMICAL ENGINEERING BACHELOR</h2>
+  <h1> ALI <br>MAMMADZADA</h1>
+  <div class="row">
+    <div class="column" style="background-color:AliceBlue;">
+      <hr align="left" noshade>
+      <h3>EDUCATION</h3>
+      <ul style="color:black;">
+        <li>Secondary School number 1 named after Nizami Ganjavi, Jalilabad, Azerbaijan | 09/2006 - 09/2012</li>
+        <li>Lyceum-school complex named after Mubariz Ibrahimov Bilasuvar, Azerbaijan| 09/2012 - 06/2017</li>
+        <li>Chemical Engineering Bachelor, Baku Higher Oil School | 09/2017 - Present</li>
+      </ul>
+      <hr align="left" noshade>
+      <h3>CERTIFICATES & ACHIEVEMENTS</h3>
+      <h4>SOCAR Training, Education, and Certification Department</h4>
+      <ul style="color:black;">
+        <li>Leadership Training</li>
+        <li>Professional Ethics</li>
+      </ul>
+      <h4>State Maritime Administration</h4>
+      <ul style="color:black;">
+        <li>Training of Personnel on Mobile Offshore Units (MOUs)</li>
+      </ul>
+      <h4>Society of Petroleum Engineers</h4>
+      <ul style="color:black;">
+        <li>Certificate of Design School (Process Design)</li>
+      </ul>
+      <hr align="left" noshade>
+      <h3>TECHNICAL SKILLS</h3>
+      <ul style="color:black;">
+        <li>Microsoft Office Suite</li>
+        <li>Aspen</li>
+        <li>HTML, CSS & JavaScript</li>
+      </ul>
+      <hr align="left" noshade>
+      <h3>LANGUAGES</h3>
+      <ul>
+        <li>Azerbaijani - Native Profficiency</li>
+        <li>English - Professional Working Profficiency</li>
+        <li>Turkish - Professional Working Profficiency</li>
+      </ul>
+    </div>
+    <div class="column" style="background-color:AliceBlue;">
+      <hr align="left" noshade>
+      <h3>EXPERIENCE</h3>
+      <h4>Process engineering internship</h4>
+      <h5>Baku Oil Refinery named after Haydar Aliyev | June 2019 - July 2019</h5>
+      <ul style="color:black;">
+        <li>Initial refining, catalytic reforming, coking, catalytic cracking</li>
+        <li>Understanding principles of pum compressor, heat exchanger, separators, and safety rules</li>
+      </ul>
+      <h5>SOCAR Carbamide Plant | August 2021</h4>
+      <ul style="color:black;">
+        <li>Ammonia, liquid and granulated urea production</li>
+      </ul>
+      <h4>Contractor</h4>
+      <h5>Caspian Event Organisers LLC Azerbaijan</h5>
+      <ul style="color:black;">
+        <li>Azerbaijan International Agriculture Exhibition 10, 11, 12 June 2021</li>
+        <li>"Yukselish" competition semi-final 17, 28 June 2021</li>
+        <li>"Yukselish" competition final 10, 11 July 2021</li>
+      </ul>
+      <hr align="left" noshade>
+      <h3>SKILLS</h3>
+      <ul style="color:black;">
+        <li>Easily communicating</li>
+        <li>Leadership</li>
+        <li>Resistance to heavy work graphics</li>
+      </ul>
+      <hr align="left" noshade>
+      <h3>INTERESTS & HOBBIES</h3>
+      <ul style="color:black;">
+        <li>Web development</li>
+        <li>Piano</li>
+        <li>Swimming</li>
+        <li>Chess</li>
+      </ul>
+      <hr align="left" noshade>
+      <h3>GET IN CONTACT</h3>
+      <ul style="color:black;">
+        <li>Mobile: +994707107200</li>
+        <li>E-mail: ali.mammadzada.std@bhos.edu.az</li>
+        <li>Home address: Farid Ahmadov 41, AZ1500 Jalilabad, Azerbaijan</li>
+      </ul>
+    </div>
+    <div class="column" style="background-color:AliceBlue;">
 
-### Support or Contact
+    </div>
+    <div class="column" style="background-color:AliceBlue;">
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </div>
+  </div>
+</body>
+
+</html>
